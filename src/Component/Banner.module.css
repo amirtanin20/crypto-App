@@ -1,0 +1,21 @@
+.bannerContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+  background-color: rgb(71, 71, 71);
+  border-radius: 8px;
+  padding: 5px;
+  margin-bottom: 100px;
+}
+.bannerContainer h2 {
+  color: rgb(249, 249, 253);
+}
+.bannerContainer p {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.bannerContainer span {
+  color: blue;
+}

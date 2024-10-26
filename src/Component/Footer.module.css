@@ -1,0 +1,11 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.footerContainer p {
+  font-size: 22px;
+}
+.footerContainer span {
+  color: blueviolet;
+}

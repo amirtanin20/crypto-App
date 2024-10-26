@@ -1,0 +1,14 @@
+.BlurLayer {
+  position: fixed; /* پوشش کامل صفحه */
+  top: 0;
+  left: 0;
+  width: 100vw; /* 100 درصد عرض صفحه */
+  height: 100vh; /* 100 درصد ارتفاع صفحه */
+  background: rgba(29, 28, 28, 0.2); /* پس‌زمینه نیمه شفاف */
+  backdrop-filter: blur(10px); /* افکت تاری */
+  -webkit-backdrop-filter: blur(10px); /* سازگاری با مرورگرهای قدیمی */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5; /* اطمینان از اینکه روی همه عناصر قرار می‌گیرد */
+}

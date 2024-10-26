@@ -1,0 +1,43 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+.resultBox {
+  position: fixed;
+
+  width: 185px;
+  background-color: rgb(85, 84, 84);
+  height: fit-content;
+  z-index: 2;
+  border-radius: 0px 0px 8px 8px;
+}
+.resultBox li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.searchContainer select {
+  margin-left: 10px;
+  height: fit-content;
+  height: 30px;
+}
+
+.resultBox li button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.resultBox span {
+  color: white;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.searchContainer input {
+  height: 30px;
+  padding: 10px;
+}

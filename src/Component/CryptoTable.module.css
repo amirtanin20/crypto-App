@@ -1,0 +1,57 @@
+.listContainer {
+  position: relative;
+  border-radius: 8px;
+  padding: 8px;
+  margin-top: 140px;
+  z-index: 1;
+}
+
+.coinView,
+.headerRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  margin: 5px;
+  background-color: rgb(65, 63, 63);
+  border-radius: 5px;
+  padding: 5px;
+}
+.coinView button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.coin {
+  display: flex;
+  gap: 10px;
+}
+.symbolBtn {
+  font-size: 22px;
+  color: white;
+}
+.headerRow {
+  position: sticky;
+  background-color: rgb(201, 197, 197);
+  color: black;
+}
+.coinList {
+  height: 450px;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+.pagination {
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  align-items: center;
+  font-size: 22px;
+}
+.pagination button {
+  font-size: 18px;
+  margin: 3px;
+  padding: 3px;
+  border: none;
+  border-radius: 3px;
+}
