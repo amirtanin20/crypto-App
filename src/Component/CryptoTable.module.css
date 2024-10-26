@@ -2,7 +2,7 @@
   position: relative;
   border-radius: 8px;
   padding: 8px;
-  margin-top: 140px;
+  margin-top: 100px;
   z-index: 1;
 }
 
@@ -27,7 +27,7 @@
   gap: 10px;
 }
 .symbolBtn {
-  font-size: 22px;
+  font-size: 20x;
   color: white;
 }
 .headerRow {
@@ -41,10 +41,8 @@
   scrollbar-width: none;
 }
 .pagination {
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: fixed;
+  display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 22px;
 }
